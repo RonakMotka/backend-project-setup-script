@@ -6,7 +6,6 @@ A script to automate the setup of your backend project file structure.
 - [Description](#description)
 - [Features](#features)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Customization](#customization)
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -41,40 +40,6 @@ This script automates the creation of a standardized backend project file struct
     ```bash
     python setup_script.py my_project /home/user/projects
     ```
-
-## Project Structure
-
-The script creates the following file structure:
-
-project_name/
-│
-├── .gitignore
-├── README.md
-├── config.py
-├── config.template.py
-├── database.py
-├── dependencies.py
-├── main.py
-├── models.py
-├── requirements.txt
-│
-├── uploads/
-│ └── init.py
-│
-├── libs/
-│ ├── init.py
-│ └── utils.py
-│
-└── routers/
-├── init.py
-└── admin/
-├── init.py
-└── v1/
-├── init.py
-├── api.py
-├── schemas.py
-└── crud/
-└── init.py
 
 
 ## Customization
